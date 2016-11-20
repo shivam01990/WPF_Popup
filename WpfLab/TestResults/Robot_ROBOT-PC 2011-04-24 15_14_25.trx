@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b1af8a06-641c-43c7-9d69-5eb2771823e0" name="Robot@ROBOT-PC 2011-04-24 15:14:25" runUser="Robot-PC\Robot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="af7ee98d-53a5-42d3-99c3-06f80d3ef6f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Robot_ROBOT-PC 2011-04-24 15_14_25">
+      <DeploymentItem filename="c:\PrismV4\Bin\Desktop\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="c:\temp\WpfLab\WpfLab\bin\Debug\WpfLab.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-24T15:14:25.9140625+02:00" queuing="2011-04-24T15:14:25.9433593+02:00" start="2011-04-24T15:14:25.9677734+02:00" finish="2011-04-24T15:14:27.7324218+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChildWindowViewModel_CancelCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="17546cb8-133b-698c-eccc-3a03f8cb3299">
+      <Execution id="ec357307-052d-438c-a265-55f876b367b4" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_CancelCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17546cb8-133b-698c-eccc-3a03f8cb3299" executionId="ec357307-052d-438c-a265-55f876b367b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ec357307-052d-438c-a265-55f876b367b4" testId="17546cb8-133b-698c-eccc-3a03f8cb3299" testName="ChildWindowViewModel_CancelCommand" computerName="ROBOT-PC" duration="00:00:00.1671799" startTime="2011-04-24T15:14:25.9736328+02:00" endTime="2011-04-24T15:14:27.0859375+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec357307-052d-438c-a265-55f876b367b4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ab3fefba-1b5a-426b-a30d-8640c8ca2831" name="Robot@ROBOT-PC 2011-04-24 14:34:57" runUser="Robot-PC\Robot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="af7ee98d-53a5-42d3-99c3-06f80d3ef6f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Robot_ROBOT-PC 2011-04-24 14_34_57">
+      <DeploymentItem filename="c:\PrismV4\Bin\Desktop\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="c:\temp\WpfLab\WpfLab\bin\Debug\WpfLab.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-24T14:34:57.1015625+02:00" queuing="2011-04-24T14:35:01.1162109+02:00" start="2011-04-24T14:35:01.5595703+02:00" finish="2011-04-24T14:35:52.4833984+02:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ROBOT-PC" outcome="Error" timestamp="2011-04-24T14:35:52.4765625+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChildWindowViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4">
+      <Execution id="9ced2372-bfe3-48f3-94b1-7fcbd919da45" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_OkCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4" executionId="9ced2372-bfe3-48f3-94b1-7fcbd919da45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9ced2372-bfe3-48f3-94b1-7fcbd919da45" testId="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4" testName="ChildWindowViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:50.6757813" startTime="2011-04-24T14:35:01.8076171+02:00" endTime="2011-04-24T14:35:52.4833984+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ced2372-bfe3-48f3-94b1-7fcbd919da45">
+    </UnitTestResult>
+  </Results>
+</TestRun>

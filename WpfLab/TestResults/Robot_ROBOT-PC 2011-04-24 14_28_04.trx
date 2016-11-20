@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d92f3a9b-5383-4441-b3ae-d8296df9033a" name="Robot@ROBOT-PC 2011-04-24 14:28:04" runUser="Robot-PC\Robot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="af7ee98d-53a5-42d3-99c3-06f80d3ef6f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Robot_ROBOT-PC 2011-04-24 14_28_04">
+      <DeploymentItem filename="c:\PrismV4\Bin\Desktop\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="c:\temp\WpfLab\WpfLab\bin\Debug\WpfLab.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-24T14:28:04.5322265+02:00" queuing="2011-04-24T14:28:08.5537109+02:00" start="2011-04-24T14:28:09.0820312+02:00" finish="2011-04-24T14:28:11.3544921+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ChildWindowViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4">
+      <Execution id="b9a32b82-6941-416b-a50f-2b4650dc902f" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_OkCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4" executionId="b9a32b82-6941-416b-a50f-2b4650dc902f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b9a32b82-6941-416b-a50f-2b4650dc902f" testId="dfede8e2-ab5f-1f5b-cb82-ba5009e2aaa4" testName="ChildWindowViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:00.8702494" startTime="2011-04-24T14:28:09.3701171+02:00" endTime="2011-04-24T14:28:10.8564453+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9a32b82-6941-416b-a50f-2b4650dc902f">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture.ChildWindowViewModel_OkCommand() in c:\temp\WpfLab\WpfLab.Tests\Desktop\ViewModel\MainWindowViewModel.cs:line 43
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

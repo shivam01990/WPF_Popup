@@ -1,0 +1,11 @@
+c:\temp\WpfLab\WpfLab.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\WpfLab.Tests.dll
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\WpfLab.Tests.pdb
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\Microsoft.Practices.Unity.dll
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\WpfLab.exe
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\WpfLab.pdb
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\Microsoft.Practices.Unity.xml
+c:\temp\WpfLab\WpfLab.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+c:\temp\WpfLab\WpfLab.Tests\obj\Debug\WpfLab.Tests.dll
+c:\temp\WpfLab\WpfLab.Tests\obj\Debug\WpfLab.Tests.pdb

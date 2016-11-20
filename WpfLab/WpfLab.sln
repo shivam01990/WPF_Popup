@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLab", "WpfLab\WpfLab.csproj", "{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLab.Tests", "WpfLab.Tests\WpfLab.Tests.csproj", "{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B57E7146-5BF8-4207-9E74-69AC68E12F8E}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WpfLab.vsmdi = WpfLab.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLab.Controls", "WpfLab.Controls\WpfLab.Controls.csproj", "{54E36425-EB49-4F20-B1F5-FBE7412D6727}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WpfLab.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Debug|x86.ActiveCfg = Debug|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Debug|x86.Build.0 = Debug|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Release|Any CPU.ActiveCfg = Release|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Release|x86.ActiveCfg = Release|x86
+		{499640A3-5FDF-4590-9CF6-51C5BAAA7FDA}.Release|x86.Build.0 = Release|x86
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EAF8F1D0-AB13-4104-90E3-5D5B4C0F992F}.Release|x86.ActiveCfg = Release|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{54E36425-EB49-4F20-B1F5-FBE7412D6727}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

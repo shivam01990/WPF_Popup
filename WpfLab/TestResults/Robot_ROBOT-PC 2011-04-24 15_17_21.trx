@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0b1ebc52-d951-4bc7-accc-60bc731fe810" name="Robot@ROBOT-PC 2011-04-24 15:17:21" runUser="Robot-PC\Robot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="af7ee98d-53a5-42d3-99c3-06f80d3ef6f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Robot_ROBOT-PC 2011-04-24 15_17_21">
+      <DeploymentItem filename="c:\PrismV4\Bin\Desktop\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="c:\temp\WpfLab\WpfLab\bin\Debug\WpfLab.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-24T15:17:21.0205078+02:00" queuing="2011-04-24T15:17:21.1298828+02:00" start="2011-04-24T15:17:21.1679687+02:00" finish="2011-04-24T15:17:23.2109375+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MainWindowViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="06804495-59c1-7084-8e85-d35588d2e178">
+      <Execution id="2695f9e6-2c80-4d23-b149-d1eb8f98ddb1" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainWindowViewModel_OkCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06804495-59c1-7084-8e85-d35588d2e178" executionId="2695f9e6-2c80-4d23-b149-d1eb8f98ddb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2695f9e6-2c80-4d23-b149-d1eb8f98ddb1" testId="06804495-59c1-7084-8e85-d35588d2e178" testName="MainWindowViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:00.3817029" startTime="2011-04-24T15:17:21.1826171+02:00" endTime="2011-04-24T15:17:22.9609375+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2695f9e6-2c80-4d23-b149-d1eb8f98ddb1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

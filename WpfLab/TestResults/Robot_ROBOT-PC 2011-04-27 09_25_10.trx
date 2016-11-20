@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd1f5d97-1310-445a-a7ee-231ba2dc5ff3" name="Robot@ROBOT-PC 2011-04-27 09:25:10" runUser="Robot-PC\Robot" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="af7ee98d-53a5-42d3-99c3-06f80d3ef6f1">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Robot_ROBOT-PC 2011-04-27 09_25_10">
+      <DeploymentItem filename="c:\PrismV4\Bin\Desktop\Microsoft.Practices.Unity.dll" />
+      <DeploymentItem filename="c:\temp\WpfLab\WpfLab\bin\Debug\WpfLab.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-04-27T09:25:10.7031250+02:00" queuing="2011-04-27T09:25:15.5722656+02:00" start="2011-04-27T09:25:16.2744140+02:00" finish="2011-04-27T09:25:17.9843750+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MainWindowViewModel_OpenFirstPopupCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="626f9452-c77d-fdfe-f164-d568c385e6ff">
+      <Execution id="950b5bdf-d907-451f-af80-3488c997f1dc" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainWindowViewModel_OpenFirstPopupCommand" />
+    </UnitTest>
+    <UnitTest name="ChildWindowViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="e63a9068-5bce-808b-9999-b366d8532426">
+      <Execution id="26b6c3a4-9bab-4573-9716-afa9515e2110" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_OkCommand" />
+    </UnitTest>
+    <UnitTest name="MainWindowViewModel_CancelCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="e4c877ba-fbd2-3995-f766-df60f2c5c163">
+      <Execution id="1a62d00d-1dd9-4c2e-8dec-49d8ec3f601d" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainWindowViewModel_CancelCommand" />
+    </UnitTest>
+    <UnitTest name="ChildWindowNestedViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="352c5a12-84cc-dd14-d545-4bf6676e76c9">
+      <Execution id="35721463-1139-4e9e-8531-b8543f00d88f" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowNestedViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowNestedViewModel_OkCommand" />
+    </UnitTest>
+    <UnitTest name="ChildWindowViewModel_OpenCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="558c12f2-b927-a569-88c0-60378505220d">
+      <Execution id="cdf55600-d3e5-4556-a0a8-0642dab38e2a" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_OpenCommand" />
+    </UnitTest>
+    <UnitTest name="MainWindowViewModel_OkCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="2deb014c-9e68-6f20-da17-d42758ce5783">
+      <Execution id="97ad5035-2191-492c-8563-aa53ee101583" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainWindowViewModel_OkCommand" />
+    </UnitTest>
+    <UnitTest name="ChildWindowViewModel_CancelCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="a9852b86-f02a-72db-823f-65d099151149">
+      <Execution id="47a06470-e0d8-4bd2-a987-3a90d6425245" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowViewModel_CancelCommand" />
+    </UnitTest>
+    <UnitTest name="MainWindowViewModel_OpenSecondPopupCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="2dc673a1-4db0-795e-08d8-48e32b9580a5">
+      <Execution id="86172dda-e637-4160-99ec-98a1adf4484e" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.MainWindowViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MainWindowViewModel_OpenSecondPopupCommand" />
+    </UnitTest>
+    <UnitTest name="ChildWindowNestedViewModel_CancelCommand" storage="c:\temp\wpflab\wpflab.tests\bin\debug\wpflab.tests.dll" id="c79da894-54b7-6f4c-d79b-43913e1b4e46">
+      <Execution id="cb77dece-fdf1-41e4-80d4-e5e2c2a4b53d" />
+      <TestMethod codeBase="c:/temp/WpfLab/WpfLab.Tests/bin/Debug/WpfLab.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WpfLab.Tests.Desktop.ViewModel.ChildWindowNestedViewModelFixture, WpfLab.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ChildWindowNestedViewModel_CancelCommand" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2dc673a1-4db0-795e-08d8-48e32b9580a5" executionId="86172dda-e637-4160-99ec-98a1adf4484e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2deb014c-9e68-6f20-da17-d42758ce5783" executionId="97ad5035-2191-492c-8563-aa53ee101583" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="352c5a12-84cc-dd14-d545-4bf6676e76c9" executionId="35721463-1139-4e9e-8531-b8543f00d88f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="558c12f2-b927-a569-88c0-60378505220d" executionId="cdf55600-d3e5-4556-a0a8-0642dab38e2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="626f9452-c77d-fdfe-f164-d568c385e6ff" executionId="950b5bdf-d907-451f-af80-3488c997f1dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9852b86-f02a-72db-823f-65d099151149" executionId="47a06470-e0d8-4bd2-a987-3a90d6425245" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c79da894-54b7-6f4c-d79b-43913e1b4e46" executionId="cb77dece-fdf1-41e4-80d4-e5e2c2a4b53d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e4c877ba-fbd2-3995-f766-df60f2c5c163" executionId="1a62d00d-1dd9-4c2e-8dec-49d8ec3f601d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e63a9068-5bce-808b-9999-b366d8532426" executionId="26b6c3a4-9bab-4573-9716-afa9515e2110" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="86172dda-e637-4160-99ec-98a1adf4484e" testId="2dc673a1-4db0-795e-08d8-48e32b9580a5" testName="MainWindowViewModel_OpenSecondPopupCommand" computerName="ROBOT-PC" duration="00:00:00.2680974" startTime="2011-04-27T09:25:16.5537109+02:00" endTime="2011-04-27T09:25:17.5078125+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86172dda-e637-4160-99ec-98a1adf4484e">
+    </UnitTestResult>
+    <UnitTestResult executionId="97ad5035-2191-492c-8563-aa53ee101583" testId="2deb014c-9e68-6f20-da17-d42758ce5783" testName="MainWindowViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:00.0016541" startTime="2011-04-27T09:25:17.5205078+02:00" endTime="2011-04-27T09:25:17.5341796+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97ad5035-2191-492c-8563-aa53ee101583">
+    </UnitTestResult>
+    <UnitTestResult executionId="35721463-1139-4e9e-8531-b8543f00d88f" testId="352c5a12-84cc-dd14-d545-4bf6676e76c9" testName="ChildWindowNestedViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:00.0030730" startTime="2011-04-27T09:25:17.5507812+02:00" endTime="2011-04-27T09:25:17.5664062+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="35721463-1139-4e9e-8531-b8543f00d88f">
+    </UnitTestResult>
+    <UnitTestResult executionId="cdf55600-d3e5-4556-a0a8-0642dab38e2a" testId="558c12f2-b927-a569-88c0-60378505220d" testName="ChildWindowViewModel_OpenCommand" computerName="ROBOT-PC" duration="00:00:00.0029702" startTime="2011-04-27T09:25:17.5761718+02:00" endTime="2011-04-27T09:25:17.5898437+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdf55600-d3e5-4556-a0a8-0642dab38e2a">
+    </UnitTestResult>
+    <UnitTestResult executionId="950b5bdf-d907-451f-af80-3488c997f1dc" testId="626f9452-c77d-fdfe-f164-d568c385e6ff" testName="MainWindowViewModel_OpenFirstPopupCommand" computerName="ROBOT-PC" duration="00:00:00.0011775" startTime="2011-04-27T09:25:17.5996093+02:00" endTime="2011-04-27T09:25:17.6113281+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="950b5bdf-d907-451f-af80-3488c997f1dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="47a06470-e0d8-4bd2-a987-3a90d6425245" testId="a9852b86-f02a-72db-823f-65d099151149" testName="ChildWindowViewModel_CancelCommand" computerName="ROBOT-PC" duration="00:00:00.0013887" startTime="2011-04-27T09:25:17.6210937+02:00" endTime="2011-04-27T09:25:17.6328125+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47a06470-e0d8-4bd2-a987-3a90d6425245">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb77dece-fdf1-41e4-80d4-e5e2c2a4b53d" testId="c79da894-54b7-6f4c-d79b-43913e1b4e46" testName="ChildWindowNestedViewModel_CancelCommand" computerName="ROBOT-PC" duration="00:00:00.0011976" startTime="2011-04-27T09:25:17.6425781+02:00" endTime="2011-04-27T09:25:17.6542968+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb77dece-fdf1-41e4-80d4-e5e2c2a4b53d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1a62d00d-1dd9-4c2e-8dec-49d8ec3f601d" testId="e4c877ba-fbd2-3995-f766-df60f2c5c163" testName="MainWindowViewModel_CancelCommand" computerName="ROBOT-PC" duration="00:00:00.0011616" startTime="2011-04-27T09:25:17.6630859+02:00" endTime="2011-04-27T09:25:17.6748046+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a62d00d-1dd9-4c2e-8dec-49d8ec3f601d">
+    </UnitTestResult>
+    <UnitTestResult executionId="26b6c3a4-9bab-4573-9716-afa9515e2110" testId="e63a9068-5bce-808b-9999-b366d8532426" testName="ChildWindowViewModel_OkCommand" computerName="ROBOT-PC" duration="00:00:00.0018491" startTime="2011-04-27T09:25:17.6835937+02:00" endTime="2011-04-27T09:25:17.6962890+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26b6c3a4-9bab-4573-9716-afa9515e2110">
+    </UnitTestResult>
+  </Results>
+</TestRun>
